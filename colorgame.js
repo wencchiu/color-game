@@ -45,8 +45,6 @@ function getAColor() {
 }
 
 function checkColors() {
-  console.log(this.style.backgroundColor);
-  console.log(colorPicked);
   if (this.style.backgroundColor.toUpperCase() === colorPicked) {
     message.textContent = "Correct!";
     newColorBtn.textContent = "PLAY AGAIN?";
